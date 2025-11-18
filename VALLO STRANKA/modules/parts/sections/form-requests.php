@@ -6,9 +6,12 @@
     <label for='email'>Email:</label>
     <input type='email' name='email' required>
 
+    <label for='telefon'>Telefón:</label>
+    <input type='text' name='telefon' required>
+
     <label for='message'>Správa:</label>
     <textarea name='message' rows='4' required></textarea>
-
+   
     <button type='submit'>Odoslať</button>
 
 </form>

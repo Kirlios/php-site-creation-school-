@@ -4,7 +4,8 @@
     --color3: #ff9ccf;
     --color4: #ffe1eb;
     --color5: #ffffff;
-
+    --color-text-on-dark: #ffffff;
+    --color-text-on-light: #000000;
     --font-label: 'Kanit', sans-serif;
     --font-text: 'kanit', sans-serif;
 

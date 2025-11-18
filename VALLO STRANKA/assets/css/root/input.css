@@ -1,10 +1,10 @@
-input {
-    padding: 10px;
-    display: inline-block;
-    width: 100%;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    transition: border-color .15s ease-in-out;
-    background: color --color1;
+input,textarea {
+font-family: var(--font-text);
+transition: 0.2s ease;
+}
+input:hover,textarea:hover {
+outline: 2px solid var(--color1);
+}
+input:focus,textarea:focus {
+box-shadow: 0px 0px 2px 2px var(--color-text-on-light);
 }
